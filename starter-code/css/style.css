@@ -2,39 +2,75 @@ input {
   border: solid 1px black;
 }
 
-.container {
+.title {
+  width: 100%;
+  text-align: center;
 
 }
 
-.info-container {
-
+.items {
+width: 100%;
+text-align: center;
+margin-bottom: 50px;
+margin-left: 40px;
+margin-top: 40px;
 }
 
-.item {
-
+.description {
+width: 120px;
+}
+.name{
+  top:100px;
 }
 
-.row {
-
+.pricediv {
+float: left;
+margin-left: 150px;
 }
 
-.col-xs-2 {
-
+.unitPrice {
+  float:left;
+  margin-left: 150px;
 }
 
-.col-xs-3 {
-
+.partial-price {
+float: left;
+margin-left: 150px;
 }
 
-.col-xs-5 {
-
+.button1div {
+float: left;
+margin-left: 150px;
 }
 
-.col-xs-4 {
-
+.button2div {
+clear: both;
+text-align: center;
 }
 
-.col-xs-7 {
+.deleteButtons {
+background-color: red;
+color: white;
+border-color: red;
+}
+
+#calculatePriceButton {
+background-color: green;
+color:white;
+border-color: green;
+margin: 15px;
+}
+
+.zero{
+color:red;
+text-align: left;
+margin: 0px;
+}
+
+input{
+  margin-left: 10px;
+}
+
 
 }
 
